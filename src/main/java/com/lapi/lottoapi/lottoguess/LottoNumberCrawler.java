@@ -15,6 +15,7 @@ import java.util.List;
 import java.util.Map;
 
 public class LottoNumberCrawler {
+
     String linkToCrawlFrom;
     private String combinationsHistoryFileName = "winningNumbers.txt";
     private Map<String, Combination> winningNumbers;
