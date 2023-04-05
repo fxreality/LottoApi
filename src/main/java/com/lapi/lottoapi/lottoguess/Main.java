@@ -25,9 +25,9 @@ public class Main {
 
         /////CombinationApproval ca = new CombinationApproval(test);
 
-        //Check if the combination is already happened in past - how many matched//
+        //Check if the combination is already happened in the past - how many matched//
         //System.out.println(ca.historyCheck());
-        //Check the combinations if the average (example: 1,2,3,4,5 can be dropped) is to high or to low//
+        //Check the combinations if the average (example: 1,2,3,4,5 can be dropped) is too high or to low//
         //System.out.println(ca.averageCheck(50));
     }
 }
