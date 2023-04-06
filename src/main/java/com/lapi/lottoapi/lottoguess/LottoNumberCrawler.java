@@ -1,6 +1,8 @@
 package com.lapi.lottoapi.lottoguess;
 
 import com.google.gson.Gson;
+import com.lapi.lottoapi.models.Combination;
+import com.lapi.lottoapi.utils.FileHandler;
 import org.joda.time.DateTime;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;

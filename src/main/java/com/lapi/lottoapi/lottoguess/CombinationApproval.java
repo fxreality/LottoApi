@@ -1,6 +1,8 @@
 package com.lapi.lottoapi.lottoguess;
 
 import com.google.gson.Gson;
+import com.lapi.lottoapi.models.Combination;
+
 import java.util.*;
 
 public class CombinationApproval {

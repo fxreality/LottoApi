@@ -1,11 +1,11 @@
-package com.lapi.lottoapi.lottoguess;
+package com.lapi.lottoapi.utils;
 
 import com.google.gson.Gson;
 
 import java.io.*;
 
 public class FileHandler {
-    boolean createFile(String fileName) {
+    public boolean createFile(String fileName) {
         Boolean fileCreated = false;
         try {
             File myObj = new File(fileName);
@@ -17,7 +17,7 @@ public class FileHandler {
         return fileCreated;
     }
 
-    void writeToFile(String fileName, String content) {
+    public void writeToFile(String fileName, String content) {
         if (!createFile(fileName)) {
             try {
                 FileWriter myWriter = new FileWriter(fileName);
@@ -30,7 +30,7 @@ public class FileHandler {
         }
     }
 
-    Object readFileContent(String fileName) {
+    public Object readFileContent(String fileName) {
         Object content = null;
         Gson gson = new Gson();
 

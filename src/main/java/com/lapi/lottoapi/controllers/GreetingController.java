@@ -1,5 +1,6 @@
-package com.lapi.lottoapi;
+package com.lapi.lottoapi.controllers;
 
+import com.lapi.lottoapi.Greeting;
 import com.lapi.lottoapi.lottoguess.CombinationApproval;
 import com.lapi.lottoapi.lottoguess.NumbersCombinationGenerator;
 import com.lapi.lottoapi.lottoguess.Statistics;

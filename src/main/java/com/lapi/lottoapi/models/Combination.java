@@ -1,4 +1,4 @@
-package com.lapi.lottoapi.lottoguess;
+package com.lapi.lottoapi.models;
 
 public class Combination {
     private int number1;
